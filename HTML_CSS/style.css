@@ -1,0 +1,215 @@
+    
+/*  body background */
+body{
+    background-color: lightgray;
+}
+/*navbar*/
+.navbar-default{
+    background-color: white;
+    color: black
+}
+.navbar-default .navbar-nav .active a{
+    background-color: rgb(31, 153, 194);
+    color: white;
+}
+
+@media(max-width: 768px){
+    .navbar-default{
+        background-color: white;
+        color: black;
+    }
+    .navbar-default .navbar-nav .active a{
+        background-color:  rgb(31, 153, 194);
+        color: white;
+    }
+}
+
+/*pages*/
+h1{
+    color:  rgb(31, 153, 194);
+    font-size: 40px;  
+}
+
+h2{
+    color:  rgb(31, 153, 194);
+    font-size: 30px; 
+}
+
+#png{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+  font-size: 20px;
+  padding: 7px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;  
+}
+
+.thumbnail{
+    padding: 20px;
+    background: white;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+    position: relative;
+}
+
+.Visualizations{
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    align-content: center;
+    position: relative;
+}
+
+.plots{
+    position: relative;
+    height: 350px;
+    width: 385px;
+    align-content: center;
+}
+
+#png1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 160px;
+    width: 160px;
+    border: 3px solid white;
+}
+#png1:hover{
+    border: 3px solid  rgb(31, 153, 194);
+}
+
+#png2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 160px;
+    width: 160px;
+    border: 3px solid white;
+}
+
+#png2:hover{
+    border: 3px solid  rgb(31, 153, 194);
+}
+
+#png3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 160px;
+    width: 160px;
+    border: 3px solid white;
+}
+
+#png3:hover{
+    border: 3px solid  rgb(31, 153, 194);
+}
+
+#png4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 160px;
+    width: 160px;
+    border: 3px solid white;
+}
+
+#png4:hover{
+    border: 3px solid  rgb(31, 153, 194);
+}
+
+@media(max-width: 995px){
+    .thumbnail{
+    position: relative;
+    height: 145px;
+    width: auto;
+    }
+    #png1{
+        float: left;
+        position: relative;
+        width: 25%;
+        border: 3px solid white;
+    }
+    #png1:hover{
+        border: 3px solid  rgb(31, 153, 194);
+    }
+    #png2{
+        float: left;
+        position: relative;
+        width: 25%;
+        border: 3px solid white;
+    }
+    #png2:hover{
+        border: 3px solid  rgb(31, 153, 194);
+    }
+    #png3{
+        float: left;
+        position: relative;
+        width: 25%;
+        border: 3px solid white;
+    }
+    #png3:hover{
+        border: 3px solid  rgb(31, 153, 194);
+    }
+    #png4{
+        float: left;
+        position: relative;
+        width: 25%;
+        border: 3px solid white;
+    }
+    #png4:hover{
+        border: 3px solid  rgb(31, 153, 194);
+    }
+}
+
+/*visualization images*/
+#png{
+    width: 500px;
+    max-width: 100%;  
+}
+
+/*comparison images*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*data table*/
+table{
+    border-collapse: collapse;
+    border: 0;
+}
+
+th, td{
+    border: 0;
+}
+
+@media(max-width: 760px) {
+    table{
+        overflow-x: scroll;
+        display: block;
+    }
+}
+
+/*footer*/
+
+footer { 
+    display: block;
+  }
