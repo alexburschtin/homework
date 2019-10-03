@@ -81,7 +81,7 @@ def scrape():
     print(weather_dict)
     print('----------------')
     print('----------------')
-    print(full_hemisphere_dict)
+    # print(full_hemisphere_dict)
     
 
 
